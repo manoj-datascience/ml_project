@@ -127,4 +127,5 @@ class DataTransformation:
 
 if __name__ == "__main__":
     obj = DataTransformation()
-    obj.initiate_data_transformation(r"D:\ml_project\artifacts\test.csv", r"D:\ml_project\artifacts\train.csv")
+    train_arr, test_arr, _=obj.initiate_data_transformation(r"D:\ml_project\artifacts\train.csv", r"D:\ml_project\artifacts\test.csv")
+    print(train_arr.shape, test_arr.shape)

@@ -1,6 +1,0 @@
-[ 2024-01-29 15:55:37,576 ] 84 root - INFO - data_transformer - Read train and test data completed
-[ 2024-01-29 15:55:37,576 ] 86 root - INFO - data_transformer - Obtaining preprocessing object
-[ 2024-01-29 15:55:37,576 ] 61 root - INFO - data_transformer - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
-[ 2024-01-29 15:55:37,576 ] 62 root - INFO - data_transformer - Numerical columns: ['writing_score', 'reading_score']
-[ 2024-01-29 15:55:37,576 ] 99 root - INFO - data_transformer - Applying preprocessing object on training dataframe and testing dataframe.
-[ 2024-01-29 15:55:37,605 ] 111 root - INFO - data_transformer - Saved preprocessing object.
