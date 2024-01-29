@@ -2,16 +2,14 @@ import logging
 import os
 from datetime import datetime
 
-directory = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
-path = os.path.join(os.getcwd(), 'logs', directory)
-os.makedirs(path, exist_ok=True)
+LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+logs_path = os.path.join(r"D:\ml_project\logs",LOG_FILE)
+os.makedirs(logs_path, exist_ok=True)
 
-filename = os.path.join(path, directory)
+LOG_FILE_PATH = os.path.join(logs_path,LOG_FILE)
 
 logging.basicConfig(
-    filename=filename,
-    format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
+    filename=LOG_FILE_PATH,
+    format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(module)s - %(message)s",
     level=logging.INFO
 )
-
-

@@ -1,0 +1,3 @@
+[ 2024-01-29 15:42:30,019 ] 53 root - INFO - data_transformer - numerical columns: ['writing_score', 'reading_score']
+[ 2024-01-29 15:42:30,019 ] 54 root - INFO - data_transformer - categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2024-01-29 15:42:30,019 ] 61 root - INFO - data_transformer - column transformation is completed

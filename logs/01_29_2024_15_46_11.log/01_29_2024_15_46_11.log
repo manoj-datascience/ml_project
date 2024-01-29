@@ -1,0 +1,6 @@
+[ 2024-01-29 15:46:11,227 ] 73 root - INFO - data_transformer - train and test data reading is completed
+[ 2024-01-29 15:46:11,227 ] 74 root - INFO - data_transformer - obtaining data transformation
+[ 2024-01-29 15:46:11,227 ] 53 root - INFO - data_transformer - numerical columns: ['writing_score', 'reading_score']
+[ 2024-01-29 15:46:11,227 ] 54 root - INFO - data_transformer - categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2024-01-29 15:46:11,227 ] 61 root - INFO - data_transformer - column transformation is completed
+[ 2024-01-29 15:46:11,227 ] 86 root - INFO - data_transformer - applying preprocessing technique to train_set and trest_set
